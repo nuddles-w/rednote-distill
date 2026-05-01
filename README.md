@@ -1,4 +1,4 @@
-# 神识 (shenshen)
+# 神识 (shenshi)
 
 > **每个创作者的风格，都可以被蒸馏成一个可调用的分身。**
 
@@ -122,7 +122,7 @@ openclaw skill install nuddles-w/rednote-distill
 ## 结构
 
 ```
-shenshen/
+shenshi/
 ├── README.md              # 你在看的
 ├── SKILL.md               # 蒸馏框架 + 执行规则
 ├── LICENSE                # MIT
