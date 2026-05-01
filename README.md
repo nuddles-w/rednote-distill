@@ -1,23 +1,30 @@
-# rednote-blogger-analysis
+# rednote-distill
 
-OpenClaw skill for analyzing Xiaohongshu (小红书/RED) influencer content strategies.
+> **蒸馏小红书博主** — 输入一个博主链接，输出风格分析 + 走红原因。
 
-## What it does
+## 概念
 
-- Deconstructs RED bloggers' naming, bio, persona, content, and monetization strategies
-- Generates personalized imitation plans based on successful blogger frameworks
-- Drafts RED note copy in target blogger styles
+看到一篇内容，你以为在学「怎么发小红书」。实际上，背后的高手的策略可能完全不同。
 
-## Install
+**蒸馏**就是：不看表面内容，而是把博主的成功经验萃取出来——命名逻辑、Bio 漏斗、文案节奏、情绪钩子、变现路径——形成可复用的策略框架。
+
+## 用法
+
+```
+蒸馏这个博主：https://xhslink.com/xxx
+对比一下 @xxx 和 @yyy
+```
+
+## 蒸馏能力
+
+- 🔬 **命名 & Bio**：逐层拆解身份锚、信任背书、差异化钩子、变现入口
+- 🧬 **内容风格**：标题套路、开头钩子、正文节奏、语言人设、CTA 模式
+- 🎯 **走红机制**：身份钩子、情绪引擎、共鸣机制、平台契合度、内容护城河
+- 📊 **横向对比**：两个博主并排蒸馏，看差异在哪
+- 🧪 **仿写生成**：蒸馏完后，可继续帮你生成自己的定位方案
+
+## 安装
 
 ```bash
-openclaw skill install nuddles-w/rednote-blogger-analysis
-```
-
-## Usage
-
-```
-分析 @Trader韭 的小红书文案策略
-模仿她的风格，我的背景是大厂研发 + 年化 17%
-帮我写一条小红书笔记
+openclaw skill install nuddles-w/rednote-distill
 ```
